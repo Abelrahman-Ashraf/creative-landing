@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>creative landing</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <a href="">
+                <img id="logo" src="images/logo.png" alt="">
+            </a>
+            <nav>
+                <ul class="main-menu">
+                    <a href="">
+                        <li>Home</li>
+                    </a>
+                    <a href="">
+                        <li>Products</li>
+                    </a>
+                    <a href="">
+                        <li>News</li>
+                    </a>
+                    <a href="">
+                        <li>About</li>
+                    </a>
+                    <a href="">
+                        <li>Contact</li>
+                    </a>
+                </ul>
+            </nav>
+            <div onclick="changeIcon()" class="icon">
+                <i id="menuIcone" class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+        <div id="content" class="content">
+            <div class="text">
+                <h2>IPHONE 13 PRO MAX</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit Alias quod, enim in dolor possimus.</p>
+                <a href="">All Products</a>
+            </div>
+            <div class="image">
+                <img class="iphone" id="iphone" src="images/0.png" alt="">
+            </div>
+        </div>
+        <div class="iphones">
+            <img id="000" onclick="changeColor(this.src,this.id)" class="smallIphone" style="width:50px ;" src="images/0.png" alt="">
+            <img id="247ec8" onclick="changeColor(this.src,this.id)" class="smallIphone" style="width:50px ;" src="images/1.png" alt="">
+            <img id="1e1e1e" onclick="changeColor(this.src,this.id)" class="smallIphone" style="width:50px ;" src="images/2.png" alt="">
+            <img id="c79b53" onclick="changeColor(this.src,this.id)" class="smallIphone" style="width:50px ;" src="images/3.png" alt="">
+            <img id="c82525" onclick="changeColor(this.src,this.id)" class="smallIphone" style="width:50px ;" src="images/4.png" alt="">
+        </div>
+    </div>
+    <script src="landing.js"></script>
+</body>
+
+</html>
